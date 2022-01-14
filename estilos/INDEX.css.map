@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAA;EACJ,gBAAgB,EAAE,OAAkB;CACnC",
+    "mappings": "ACAA,AAAA,CAAC,CAAA;EACG,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,GAAG;CACd;;AAGD,AAAA,IAAI,CAAA;EACJ,gBAAgB,EAAE,OAAkB;CACnC;;AAGD,AAAA,SAAS,CAAA;EACL,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACtB;;ACfD,AAAA,UAAU,CAAC,GAAG,CAAC;EACX,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,eAAgB;CAClC",
     "sources": [
         "INDEX.scss",
-        "_divGeneral.scss"
+        "_divGeneral.scss",
+        "_divImagen.scss"
     ],
     "names": [],
     "file": "INDEX.css"
