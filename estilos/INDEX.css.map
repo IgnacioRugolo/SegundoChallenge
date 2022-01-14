@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAA;EACJ,gBAAgB,EAAE,OAAkB;CACnC",
+    "sources": [
+        "INDEX.scss",
+        "_divGeneral.scss"
+    ],
+    "names": [],
+    "file": "INDEX.css"
+}
