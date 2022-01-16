@@ -6,13 +6,73 @@
 }
 
 .divTexto--textoOscuro{
-    margin-top: 1rem;
-    padding: 1rem;
-    font-size: 18px;
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
+    margin-top: 2rem;
+    margin: 2rem;
+    font-size: 16px;
+    opacity: 0.9;
 }
 
 .divTexto--textoClaro{
-    
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    margin: 2rem;
+    font-size: 13px;
+   color: hsl(212, 23%, 69%);
+}
+
+.tercerParte--cuadroBlanco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+}
+.iconoNombreFecha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+.nombreFecha{
+    display: flex;
+    flex-direction: column;
+justify-content: space-around;
+margin-left: 10px;
+}
+.imagenDiminuta{
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+.nombreFecha--nombre{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    opacity: 0.9;
+    font-size: 11px;
+}
+.nombreFecha--fecha{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 10.7px;
+    color:hsl(212, 23%, 69%) ;
+}
+.divClic{
+    cursor: pointer;
+    margin-top: 0.2rem;
+    position: relative;
+ background-color:hsl(210, 46%, 95%) ; 
+width: 25px;
+height: 25px;
+  border-radius: 15px;
+}
+.click{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 5.5px;
+    top: 4px;
+   
 }
