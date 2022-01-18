@@ -23,10 +23,12 @@
 }
 
 .tercerParte--cuadroBlanco{
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    
 }
 .iconoNombreFecha{
     display: flex;
@@ -75,4 +77,72 @@ height: 25px;
     left: 5.5px;
     top: 4px;
    
+}
+.cuadroGris{
+    position: absolute;
+    background-color:hsl(217, 19%, 35%);
+    width: 330px;
+    height: 50px;
+    bottom: 100px;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+  
+
+}
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1rem;
+    
+}
+
+.letraShare{
+    font-family: 'Manrope', sans-serif;
+     font-size:10px ;
+     margin-left: -0.8rem;
+     color: hsl(214, 17%, 51%);
+     letter-spacing: 1px;
+}
+
+
+.facebook{
+    height: 14px;
+}
+
+.twitter{
+    height: 14px;
+}
+
+.pinterest{
+    height: 14px;
+}
+
+.grupoIcono{
+    margin-left: -5rem;
+}
+.grupoIcono img{
+   margin-right: 10px;
+}
+
+
+ .segundoShare path{
+cursor: pointer;
+    fill: #ffffff !important;
+
+}
+
+.divSegundoShare{
+    position: relative;
+    margin-top: -0.3rem;
+    background-color: hsl(214, 17%, 51%);
+    width: 25px;
+height: 25px;
+  border-radius: 15px;
+}
+
+.segundoShare{
+    position: absolute;
+    top: 5px;
+    left: 5.5px;
 }
