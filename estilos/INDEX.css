@@ -47,7 +47,7 @@ body {
   font-family: 'Manrope', sans-serif;
   font-weight: 500;
   margin: 2rem;
-  font-size: 13px;
+  font-size: 13.5px;
   color: #9eafc2;
 }
 
@@ -135,7 +135,7 @@ body {
   background-color: #48556a;
   width: 330px;
   height: 50px;
-  bottom: 100px;
+  bottom: 95px;
   border-radius: 0px 0px 10px 10px;
   display: none;
 }
@@ -199,5 +199,118 @@ body {
   position: absolute;
   top: 5px;
   left: 5.5px;
+}
+
+@media screen and (min-width: 1440px) {
+  .encuadre {
+    margin-top: 10rem;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .divImagen img {
+    margin-top: 0rem !important;
+    width: 330px;
+    height: 290px;
+    border-radius: 8px 0px 0px 8px;
+  }
+  .divTexto {
+    margin-top: 0rem !important;
+    background-color: white;
+    width: 435px;
+    height: 290px;
+    border-radius: 0px 8px 8px 0px;
+  }
+  .divTexto--textoOscuro {
+    font-size: 20px;
+  }
+  .divTexto--textoClaro {
+    font-size: 13.5px;
+  }
+  .tercerParte--cuadroBlanco {
+    margin-top: -0.5rem;
+  }
+  .iconoNombreFecha {
+    margin-right: 130px;
+  }
+  .cuadroGris {
+    position: absolute;
+    background-color: #48556a;
+    width: 200px;
+    height: 46px;
+    bottom: 360px;
+    right: 340px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .triangulo {
+    width: 0;
+    height: 0;
+    border-top: 22px solid #48556a;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    bottom: 5px;
+    margin-left: 95px;
+  }
+  .iconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .letraShare {
+    font-family: 'Manrope', sans-serif;
+    font-size: 10px;
+    margin-left: 2rem;
+    color: #6d7f97;
+    letter-spacing: 1px;
+  }
+  .grupoIcono {
+    margin-right: 1rem;
+  }
+  .facebook {
+    height: 14px;
+  }
+  .twitter {
+    height: 14px;
+  }
+  .pinterest {
+    height: 14px;
+  }
+  .grupoIcono {
+    margin-left: -5rem;
+  }
+  .grupoIcono img {
+    margin-right: 10px;
+  }
+  .segundoShare path {
+    cursor: pointer;
+    fill: #ffffff !important;
+    display: none;
+  }
+  .divSegundoShare {
+    position: relative;
+    margin-top: -0.3rem;
+    background-color: #6d7f97;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    display: none;
+  }
+  .segundoShare {
+    position: absolute;
+    top: 5px;
+    left: 5.5px;
+  }
 }
 /*# sourceMappingURL=INDEX.css.map */
